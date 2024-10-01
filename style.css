@@ -15,14 +15,23 @@
     top: 5%;
     width: 100%;
     text-align: center;
+    word-wrap: break-word;
     font-size: 4em;
     color: #dae2e4;
     font-family: 'Happy Memories';
-    src: url('./Happy Memories.otf') format('truetype');
+    src: url('https://drive.google.com/uc?export=download&id=1nmnA6TASb38CCh4ElqeP6l2Hm6qqhfzZ') format('opentype');
     animation: typing 4s steps(40) forwards;
     white-space: nowrap;
     overflow: hidden;
     animation: fade-in 3s ease-in-out infinite;
+}
+
+@media (max-width: 600px) {
+    .text-curve {
+        font-size: 2em;
+        white-space: normal;
+        /* Permite la división de líneas */
+    }
 }
 
 @keyframes fade-in {
@@ -36,6 +45,7 @@
 }
 
 body {
+    font-family: 'Happy Memories', Georgia, 'Times New Roman', Times, serif;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -2040,4 +2050,5 @@ body {
         fill: rgb(253, 93, 19);
         opacity: 1;
     }
+}   }
 }
