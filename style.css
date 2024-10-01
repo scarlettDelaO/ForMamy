@@ -18,8 +18,8 @@
     word-wrap: break-word;
     font-size: 4em;
     color: #dae2e4;
-    font-family: 'Happy Memories';
-    src: url('https://drive.google.com/uc?export=download&id=1nmnA6TASb38CCh4ElqeP6l2Hm6qqhfzZ') format('opentype');
+    font-family: 'Georgia';
+    /*src: url('Happy Memories.otf') format('opentype');*/
     animation: typing 4s steps(40) forwards;
     white-space: nowrap;
     overflow: hidden;
@@ -2050,5 +2050,9 @@ body {
         fill: rgb(253, 93, 19);
         opacity: 1;
     }
-}   }
+}
+
+
+}
+
 }
