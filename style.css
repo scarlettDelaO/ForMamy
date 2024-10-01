@@ -15,9 +15,10 @@
     top: 5%;
     width: 100%;
     text-align: center;
-    font-size: 2em;
+    font-size: 4em;
     color: #dae2e4;
-    font-family: 'Happy memories';
+    font-family: 'Happy Memories';
+    src: url('./Happy Memories.otf') format('truetype');
     animation: typing 4s steps(40) forwards;
     white-space: nowrap;
     overflow: hidden;
